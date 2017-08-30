@@ -1,0 +1,48 @@
+Capacitação de HTML e CSS + Introdução ao Bootstrap
+
+Estrutura do Curso
+	⁃	Introdução
+        - Pontuar o que eles irão aprender no curso (Foco do curso)
+        - Editores de texto (Atom e Sublime)
+        -
+	⁃	O que é HTML e CSS
+	⁃	Estrutura de uma página WEB
+
+HTML (HyperText Markup)
+    - Linguagem -> Syntax + Regras
+    - Constroi uma página web
+    - Tags
+
+DOM (Document Object Model)
+    - Arvore de tags/elementos da página que são formadas apartir de um documento html
+
+CSS (Cascading Style Sheets)
+    - Define como os objetos aparecem na página, ou seja, seu estilo
+
+Code Time
+HTML
+    - <articles>
+    - <strong>
+    - <nav>
+    - <img>
+
+
+CSS
+    - Inline, Internal, External
+        Inline <h1 style="color:blue;">
+        Internal <style> h1 { color: blue; } </style>
+        External <link rel="stylesheet" href>
+    - Classes, Ids, Atributos
+    - Content, Padding, Border, Margin;
+        - Content: é o conteúdo própriamente dito
+        - Padding: é o que separa o conteúdo da borda
+        - Borda: é o que separa um elemnto de outro
+    - Como centralizo determinado elemento (Margin 0,auto);
+    - Positions
+    - Display
+
+Exemplo da casa o que seria cada função
+
+Obs:
+	⁃	Cada tag utilizada no curso deve ser explicada com a sua respectiva função
+	⁃	Explicar os atributos de cada tag, como por exemplo a tag alt
