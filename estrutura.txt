@@ -12,6 +12,7 @@ HTML (HyperText Markup)
     - Linguagem -> Syntax + Regras
     - Constroi uma página web
     - Tags
+	- Atributos
 
 DOM (Document Object Model)
     - Arvore de tags/elementos da página que são formadas apartir de um documento html
@@ -20,12 +21,53 @@ CSS (Cascading Style Sheets)
     - Define como os objetos aparecem na página, ou seja, seu estilo
 
 Code Time
-HTML
+
+//Montar estrutura básica $atom html
+
+Estrutura
+	html
+	head > informações sobre meta dados
+		links > link to external style sheets
+	body > parte visivel
+	h1 > headings
+	p > paragraph
+	br > break line
+	strong > important text (html5)
+	pre > de acordo com a formatação do texto
+	a > ancor
+		href > referencia ancora
+		alt > descr imagem caso imagem nao carregue
+	link >
+		src > referencia um arquivo externo
+		rel > relacionado a o que?
+			- stylesheet
+			- license
+			- icon
+	img >
+		alt
+		<img src="https://ecomp.co/ecompinguin.png">
+		<img src="images/ecompicture.jpg"> is located in the images folder located in the current folder
+		<img src="/images/ecompicture.jpg">	is located in the images folder located at the root of the current web
+		<img src="../ecompicture.jpg">
+//Explicar o Dom
+
+$emmit section*5>div.sections>h1{minhas secoes}
+
+HTML5 (2014)
     - <articles>
     - <strong>
     - <nav>
-    - <img>
+    - <aside>
+	- <footer>
+	- <detail>
 
+List
+	ul > nao ordenada
+	ol > ordenada
+	li > list item (att type= A , 1, a, I, i)
+span
+div
+iframe
 
 CSS
     - Inline, Internal, External
@@ -37,9 +79,12 @@ CSS
         - Content: é o conteúdo própriamente dito
         - Padding: é o que separa o conteúdo da borda
         - Borda: é o que separa um elemnto de outro
+		- Margin: separa o objeto de outros
     - Como centralizo determinado elemento (Margin 0,auto);
     - Positions
     - Display
+
+
 
 Exemplo da casa o que seria cada função
 
