@@ -1,10 +1,10 @@
 .navbar{
     overflow: hidden;
     position: fixed;
-    /*z-index: 1;*/
+    z-index: 1;
     width: 100%;
     top: 0;
-    background-color: rgb(90,90,90);
+    background-color: transparent;
 }
 
 .navbar a{
@@ -54,7 +54,7 @@
     outline: 0;
 }
 .btn-header:hover{
-    background-color: rgb(220,220,0);
+    background-color: #fdcc52;
     color: white;
 }
 .btn-header{
@@ -66,15 +66,29 @@
     background-color: transparent;
 }
 
+.download-section{
+    background-color: #fdcc52;
+}
+
+.content-download{
+    padding: 100px 0;
+    text-align: center;
+}
+
 .img-header{
     padding-left: 10%;
+}
+
+.feature-icons{
+    height: 85;
+    width: 87;
 }
 
 ul{
     margin: 0;
 }
 .main-header{
-    margin-top: 46px;
+    padding-top: 46px;
 }
 
 body{
