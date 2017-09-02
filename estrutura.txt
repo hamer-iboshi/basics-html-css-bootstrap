@@ -80,6 +80,8 @@ CSS
         - Padding: é o que separa o conteúdo da borda
         - Borda: é o que separa um elemnto de outro
 		- Margin: separa o objeto de outros
+		- Valores
+			p.center { }
     - Como centralizo determinado elemento (Margin 0,auto);
     - Positions
     - Display
