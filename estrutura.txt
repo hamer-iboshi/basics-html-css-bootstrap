@@ -28,6 +28,7 @@ Estrutura
 	html
 	head > informações sobre meta dados
 		links > link to external style sheets
+		link rel="icon"
 	body > parte visivel
 	h1 > headings
 	p > paragraph
@@ -96,9 +97,15 @@ Obs:
 
 Complemento:
 
+//feature section $emit div[class=row]*2>(div>img+h3+p)*2
+
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+colors:
+background-image: url(img/bg-pattern.png), linear-gradient(to left, rgb(123, 67, 151), rgb(220, 36, 48));
+#fdcc52
