@@ -7,19 +7,21 @@
     background-color: transparent;
 }
 
+.navbar ul{
+    width: 100%;
+}
+
 .navbar a{
     display: block;
     padding: 14px 16px;
 }
 
 .item-float-right {
-    float: right;
     margin: 0 10px;
 }
 
-.nav-left-block{
-    margin-right: 10%;
-
+.feature-introduction{
+    padding: 40px;
 }
 
 .main-header{
