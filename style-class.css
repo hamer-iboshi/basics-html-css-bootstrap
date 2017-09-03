@@ -1,0 +1,68 @@
+.header-page{
+    background-image: url("img/bg-pattern.png"), linear-gradient(to left,rgb(123,67,151),rgb(220,36,48));
+}
+
+.nav-bar{
+    width: 100%;
+    top: 0px;
+    position: fixed;
+    background: transparent;
+}
+
+.nav-bar a {
+    display: block;
+    color: white;
+}
+
+.nav-bar-item:hover{
+    background-color: grey;
+}
+
+.nav-bar-item{
+    position: relative;
+    list-style-type: none;
+    overflow:hidden;
+    float: left;
+    padding: 10px 40px;
+}
+
+.iphone-size{
+    height: 525px;
+    width: 300px;
+}
+.header-page{
+    top: 0;
+    padding-top: 10%;
+}
+
+.head-left{
+    width: 50%;
+    margin-top: 20%;
+    position: block;
+    float:left;
+    text-align: center;
+}
+
+.nav-right{
+    padding-left: 40%;
+}
+
+.head-right{
+    position: block;
+    padding-right: 10%;
+}
+
+.btn-header{
+    background-color: transparent;
+    border-radius: 300px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+}

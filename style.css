@@ -62,6 +62,7 @@
     border-radius: 300px;
     border: 1px #grey;
     letter-spacing: 2px;
+    font-size: 20px;
     text-transform: uppercase;
     background-color: transparent;
 }
@@ -80,8 +81,12 @@
 }
 
 .feature-icons{
-    height: 85;
-    width: 87;
+    height: 85px;
+    width: 87px;
+}
+
+.feature-content-right{
+    padding-top: 5%;
 }
 
 ul{
@@ -105,7 +110,6 @@ a{
     text-decoration: none;
     color: white;
 }
-
 
 li a:hover{
     background-color: grey;
